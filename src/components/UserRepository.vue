@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col w-screen-90 rounded shadow-md mt-8 p-4 bg-white md:w-screen-50">
         <h2 class="text-lg flex justify-between">
-            <a href="">{{ repository.name }}</a>
+            <a :href="repository.html_url">{{ repository.name }}</a>
             <span
                 v-if="repository.fork"
                 class="bg-grey-light text-grey-darker p-1 rounded text-sm"

@@ -11,7 +11,7 @@
             @click="login"
         />
 
-        <footer class="absolute pin-b mb-4">
+        <footer class="absolute pin-b mb-4 flex items-center px-2">
             <i class="text-sm">
                 Created by <a href="https://github.com/NoelDeMartin">Noel De Martin</a>,
                 source code: <a href="https://github.com/NoelDeMartin/wemake-services-test">https://github.com/NoelDeMartin/wemake-services-test</a>

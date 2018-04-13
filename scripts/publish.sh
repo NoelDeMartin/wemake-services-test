@@ -10,6 +10,7 @@ rm -rf $TMP_DIR
 mkdir $TMP_DIR
 cp index.html $TMP_DIR
 cp build $TMP_DIR -r
+cp webtask.js $TMP_DIR -r
 
 cd $TMP_DIR
 git init

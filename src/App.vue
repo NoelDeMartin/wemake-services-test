@@ -53,7 +53,8 @@ export default {
     },
     methods: {
         login() {
-            window.location.replace('https://wemake-services.noeldemartin.com/login');
+            // Process github oauth authentication with a FaaS running on webtask.io (implementation found in webtask.js)
+            window.location.replace('https://wt-890d8373aaab58aea4364f81b1b5d212-0.run.webtask.io/wemake-services-test');
         },
     },
 };
